@@ -10,8 +10,8 @@ spec:
   project: default
   source: 
     path: sync-options/replace
-    repoURL: "https://github.com/hrytskivr-ibm/argocd-example-apps.git"
-    targetRevision: master
+    repoURL: "git@github.com:hrytskivr-ibm/argocd-example-apps.git"
+    targetRevision: main
     directory:
       recurse: true
   syncPolicy:

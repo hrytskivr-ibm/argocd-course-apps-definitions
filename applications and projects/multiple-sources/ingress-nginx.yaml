@@ -15,9 +15,9 @@ spec:
       helm:
         valueFiles:
         - $values/ingress-nginx/values.yaml
-    - repoURL: https://github.com/hrytskivr-ibm/argocd-example-apps.git
+    - repoURL: git@github.com:hrytskivr-ibm/argocd-example-apps.git
       ref: values
-      targetRevision: master
+      targetRevision: main
   syncPolicy:
     syncOptions:
       - CreateNamespace=true

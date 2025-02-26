@@ -10,8 +10,8 @@ spec:
   project: dev-project
   source: 
     path: guestbook
-    repoURL: "https://github.com/hrytskivr-ibm/argocd-example-apps.git"
-    targetRevision: master
+    repoURL: "git@github.com:hrytskivr-ibm/argocd-example-apps.git"
+    targetRevision: main
   syncPolicy:
     syncOptions:
       - CreateNamespace=true

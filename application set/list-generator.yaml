@@ -18,8 +18,8 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/hrytskivr-ibm/argocd-example-apps.git
-        targetRevision: master
+        repoURL: git@github.com:hrytskivr-ibm/argocd-example-apps.git
+        targetRevision: main
         path: guestbook
       destination:
         server: '{{url}}'
