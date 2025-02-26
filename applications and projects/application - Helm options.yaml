@@ -13,7 +13,7 @@ spec:
     repoURL: "https://github.com/hrytskivr-ibm/argocd-example-apps.git"
     targetRevision: master
     helm:
-     releaseName: my-release
+     releaseName: bober-app
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
